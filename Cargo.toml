@@ -1,0 +1,12 @@
+[package]
+name = "suffixes"
+version = "0.1.0"
+authors = ["Franklin Delehelle <franklin.delehelle@irit.fr>"]
+edition = "2018"
+
+[dependencies]
+suffix = "*"
+time = "*"
+
+[build-dependencies]
+cmake = "0.1"
