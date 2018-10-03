@@ -40,7 +40,7 @@ fn divsufsort() {
     println!("{:?} matches", search(GENOME.as_bytes(), &sa, NEEDLE.as_bytes()).len());
 }
 #[bench]
-fn bench_divsufsort(b: &mut Bencher) {b.iter(|| divsufsort() )}
+fn bench_divsufsort(b: &mut Bencher) { b.iter(|| divsufsort()) }
 
 
 fn suffix() {
